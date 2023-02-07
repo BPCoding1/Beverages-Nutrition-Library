@@ -47,7 +47,7 @@ return {list} - the list of matching beverages
 */
 function beveragesByType(type){
   var matchingBeverages = [];
-if (!(typeof beverage == 'string')){
+if (!(typeof type == 'string')){
   matchingBeverages.push("ERROR: check that input is a string");
   
   return matchingBeverages;
