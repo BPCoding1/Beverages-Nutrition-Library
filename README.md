@@ -7,6 +7,13 @@ A library of five functions that report various information about a beverage dat
 
 @return {list} - the list of matching beverages
 
-'''
-function beveragesByType(type)
-'''
+'function beveragesByType(type)'
+
+**Returns a list of the beveragres taht are at or below a preferred max caffeine amount**
+
+@param maxCaffeineAmount {number} - the preferred max caffeine amount in one drink
+
+@return {list} - the list of all beverages at or below the max caffeine amount
+
+
+'function beveragesBelowMaxCaffeine(maxCaffeineAmount)'
